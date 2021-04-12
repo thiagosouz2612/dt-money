@@ -6,7 +6,9 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);// criar 3 grids no css
 gap: 2rem;
 margin-top: -10rem;
-
+*{
+    font-family: 'Poppins', sans-serif;
+}
 div{
 
     background: var(--shape);
