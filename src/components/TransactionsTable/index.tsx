@@ -1,6 +1,16 @@
+import { useEffect } from "react";
+import { api } from "../../services/api";
 import { Container } from "./styles";
 
+
 export function TransactionsTable(){
+
+//Inicio da Sumilação de uma api com mirage.js
+useEffect(() => {
+ api.get('transactions').then(data => console.log(data))
+}, []);
+
+//Fim da Sumilação de uma api com mirage.js
 return(
     <Container>
         <table>
