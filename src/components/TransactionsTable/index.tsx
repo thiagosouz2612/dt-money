@@ -15,21 +15,16 @@ return(
             <tbody>
                 <tr>
                 <td >Desenvolvimento de Sites</td>
-                <td>R$12000,00</td>
+                <td className="deposit">R$12000,00</td>
                 <td>Desenvolvimento</td>
                 <td>20/02/2021</td>
                 </tr>
-                <tr>
-                <td >Desenvolvimento de Sites</td>
-                <td>R$12000,00</td>
-                <td>Desenvolvimento</td>
-                <td>20/02/2021</td>
-                </tr>
+            
                 <tr>
                 <td>Aluguel</td>
-                <td>R$12000,00</td>
-                <td>Desenvolvimento</td>
-                <td>20/02/2021</td>
+                <td className="withdraw">R$1.100</td>
+                <td>Casa</td>
+                <td>17/02/2021</td>
                 </tr>
 
             </tbody>
